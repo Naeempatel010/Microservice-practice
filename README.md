@@ -1,5 +1,8 @@
-## Microservice Architecture and System Design with Python & Kubernetes
+Microservice which converts a video file into a MP3 file. The microservices created are 
+1. Authentication(JWT token)
+2. Notification Service
+3. Video to MP3 service
 
-This repository refers to the [freeCodeCamp.org](https://www.freecodecamp.org/) hands-on tutorial about microservices architecture and distributed systems using Python, Kubernetes, RabbitMQ, MongoDB, and MySQL.
 
-Watch the [YouTube video](https://www.youtube.com/watch?v=hmkF77F9TLw) for more information.
+All the services communicate through RabbitMQ, The database used are mysql and mongoDB. The container orchestration is done through Kubernetes. 
+
